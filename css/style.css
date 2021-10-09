@@ -1,4 +1,4 @@
-.Features, .Interior, .Pricing, footer, .Download__App, .Latest__News, .Testimonials, .Screenshots {
+.Features, .Interior, .Pricing, .Testimonials, .Screenshots, .Download__App, .Latest__News, footer {
   padding-top: 9.5rem;
   padding-bottom: 5rem; }
 
@@ -17,6 +17,9 @@ body {
 h4 {
   font-weight: bold;
   font-size: 1.5rem; }
+
+.background__color {
+  background-color: #f9f9ff; }
 
 .main_btn2 {
   background: #f9f9ff;
@@ -107,19 +110,8 @@ img {
 a {
   text-decoration: none; }
 
-footer {
-  background-color: #222;
-  color: #fff; }
-  footer li a {
-    color: #fff; }
-  footer h6 {
-    text-transform: uppercase;
-    font-size: 1.5rem; }
-  footer p {
-    color: #777; }
-
-.background__color {
-  background-color: #f9f9ff; }
+.video_area {
+  text-align: center; }
 
 .Download__App {
   background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
@@ -149,8 +141,16 @@ footer {
   line-height: 28px;
   border-radius: 3px; }
 
-.video_area {
-  text-align: center; }
+footer {
+  background-color: #222;
+  color: #fff; }
+  footer li a {
+    color: #fff; }
+  footer h6 {
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+  footer p {
+    color: #777; }
 
 @media (min-width: 1200px) {
   .fs-1 {
