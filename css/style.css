@@ -1,8 +1,8 @@
-.Features, .Interior, .Pricing, .Download__App, .Latest__News, .Testimonials, .Screenshots, footer {
+.Features, .Interior, .Pricing, footer, .Download__App, .Latest__News, .Testimonials, .Screenshots {
   padding-top: 9.5rem;
   padding-bottom: 5rem; }
 
-.banner_btn, .main_btn2, .main_btn {
+.main_btn2, .main_btn, .banner_btn {
   padding: 1rem 2rem;
   text-align: center;
   margin-bottom: 1rem;
@@ -17,6 +17,17 @@ body {
 h4 {
   font-weight: bold;
   font-size: 1.5rem; }
+
+.main_btn2 {
+  background: #f9f9ff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  color: black; }
+
+.main_btn {
+  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  cursor: pointer;
+  color: white; }
 
 ul {
   margin: 0;
@@ -72,6 +83,21 @@ h2 {
 img {
   padding: .8rem; }
 
+.interior_p {
+  font-size: 3rem; }
+
+.Pricing .Pricing__Table__header {
+  border-bottom: 1px solid #eee; }
+
+.Pricing .price_body {
+  padding: 2rem 0; }
+
+.Pricing .list {
+  margin-bottom: 2rem; }
+
+.Pricing .Pricing__Table_title {
+  margin-bottom: 75px; }
+
 .price_body li a {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -81,34 +107,19 @@ img {
 a {
   text-decoration: none; }
 
-.interior_p {
-  font-size: 3rem; }
+footer {
+  background-color: #222;
+  color: #fff; }
+  footer li a {
+    color: #fff; }
+  footer h6 {
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+  footer p {
+    color: #777; }
 
 .background__color {
   background-color: #f9f9ff; }
-
-.Pricing__Table__header {
-  border-bottom: 1px solid #eee; }
-
-.price_body {
-  padding: 2rem 0; }
-
-.list {
-  margin-bottom: 2rem; }
-
-.main_btn2 {
-  background: #f9f9ff;
-  border: 1px solid #ddd;
-  cursor: pointer;
-  color: black; }
-
-.main_btn {
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  cursor: pointer;
-  color: white; }
-
-.Pricing__Table_title {
-  margin-bottom: 75px; }
 
 .Download__App {
   background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
@@ -137,17 +148,6 @@ a {
   display: inline-block;
   line-height: 28px;
   border-radius: 3px; }
-
-footer {
-  background-color: #222;
-  color: #fff; }
-  footer li a {
-    color: #fff; }
-  footer h6 {
-    text-transform: uppercase;
-    font-size: 1.5rem; }
-  footer p {
-    color: #777; }
 
 .video_area {
   text-align: center; }

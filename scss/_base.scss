@@ -10,6 +10,22 @@ h4 {
     font-size: 1.5rem;
     
 }
+// main button in file
+.main_btn2 {
+    @extend %button;
+    background: #f9f9ff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    color: black;
+}
+.main_btn {
+    @extend %button;
+    background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+    // border: 1px solid #ddd;
+    cursor: pointer;
+    color: $textcolor;
+}
+
 
 //nav bar 
 ul {
@@ -74,5 +90,62 @@ h2 {
 
 img {
     padding: .8rem;
+}
+// ---------------------------------------------------
+// Interior section 
+.interior_p {
+    font-size: 3rem;
+}
+.Interior {
+    @extend %section_padding;
+}
+
+// --------------------------------------------------------
+// pricing section
+.Pricing {
+    @extend %section_padding;
+    .Pricing__Table__header {
+        border-bottom: 1px solid $bordercolr;
+    }
+    .price_body {
+        padding: 2rem 0;
+    }
+    .list {
+        margin-bottom: 2rem;
+    }
+    .Pricing__Table_title {
+        margin-bottom: 75px;
+    }
+}
+.price_body li a {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #777;
+}
+a {
+    text-decoration: none;
+}
+
+
+// ------------------------------------------------------------
+// footer
+footer {
+    @extend %section_padding;
+    background-color: $footerBackground;
+    color: $btnColor;
+
+    li a {
+        color: $btnColor;
+    }
+
+    h6 {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: $text;
+    }
 }
 

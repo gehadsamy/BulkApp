@@ -1,96 +1,42 @@
     @import '_variables1';
     @import '_mixins1';
-@import '_base';
-
+    @import '_base';
     
- 
-    
-    .price_body li a {
-        font-size: 20px;
-        font-family: "Roboto", sans-serif;
-        font-weight: normal;
-        color: #777;
-    }
-    
-    a {
-        text-decoration: none;
-    }
     
 
-   
-    .interior_p {
-        font-size: 3rem;
-    }
-    
-    
-    .Interior {
-        @extend %section_padding;
-    }
-    
-    .Pricing {
-        @extend %section_padding;
-    }
-    
     .background__color {
         background-color: $background-color;
     }
     
-    .Pricing__Table__header {
-        border-bottom: 1px solid $bordercolr;
-    }
-    
-    .price_body {
-        padding: 2rem 0;
-    }
-    
-    .list {
-        margin-bottom: 2rem;
-    }
-    
-    .main_btn2 {
-        @extend %button;
-        background: #f9f9ff;
-        border: 1px solid #ddd;
-        cursor: pointer;
-        color: black;
-    }
-    
-    .main_btn {
-        @extend %button;
-        background-image: -webkit-linear-gradient( 0deg, #bc2bff 0%, #7249fb 100%);
-        // border: 1px solid #ddd;
-        cursor: pointer;
-        color: $textcolor;
-    }
-    
-    .Pricing__Table_title {
-        margin-bottom: 75px;
-    }
     
     .Download__App {
         @extend %section_padding;
-        background-image: -webkit-linear-gradient( 0deg, #bc2bff 0%, #7249fb 100%);
+        background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
         color: $btnColor;
+
         h2 {
             color: $btnColor;
         }
     }
-    
     .Latest__News {
         @extend %section_padding;
+
         .l_news_item {
             background: #f9f9ff;
             padding: 60px 30px;
             border-radius: 5px;
         }
+
         h4 {
             color: black;
             text-transform: uppercase;
             padding: 1rem 0rem;
         }
+
         p {
             color: $text;
         }
+
         .date {
             background: $btnColor;
             color: #777;
@@ -101,37 +47,23 @@
             border-radius: 3px;
         }
     }
-    
+
     .Testimonials {
         @extend %section_padding;
     }
-    
+
     .Screenshots {
         @extend %section_padding;
     }
-    
-    footer {
-        @extend %section_padding;
-        background-color: $footerBackground;
-        color: $btnColor;
-        li a {
-            color: $btnColor;
-        }
-        h6 {
-            text-transform: uppercase;
-            font-size: 1.5rem;
-        }
-        p {
-            color: $text;
-        }
-    }
-    
+
+  
+
     .video_area {
         text-align: center;
     }
-    
+
     @media (min-width: 1200px) {
         .fs-1 {
-            font-size: 5.5rem!important;
+            font-size: 5.5rem !important;
         }
     }
