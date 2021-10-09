@@ -1,17 +1,7 @@
     @import '_variables1';
     @import '_mixins1';
 @import '_base';
-    .Features__item {
-        @include box-shadow(5px, 4.5px, 9.5px, 0, lighten($headercolor, 73%));
-    }
-    
-    h2 {
-        @include headerH2
-    }
-    
-    img {
-        padding: .8rem;
-    }
+
     
  
     
