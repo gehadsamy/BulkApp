@@ -167,4 +167,6 @@ footer {
 
 @media (min-width: 576px) {
   .l_news_item, .Features__item {
-    margin: 1rem; } }
+    margin: 1rem; }
+  .Screenshots__title {
+    text-align: center; } }
