@@ -228,11 +228,26 @@ footer {
         color: $text;
     }
 }
+.footer__btn {
+    background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+    padding: .5rem 1.8rem;
+    text-align: center;
+    border-radius: 59px;    
+    border: none;
+    cursor: pointer;
+    color: $textcolor;
+}
 
 // -----------------------------------------
 // media query
 @media (min-width: 1200px) {
     .fs-1 {
         font-size: 5.5rem !important;
+    }
+}
+@media (min-width : 576px)
+{
+   .l_news_item , .Features__item {
+        margin: 1rem;
     }
 }
