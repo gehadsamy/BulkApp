@@ -1,0 +1,157 @@
+.Features, .Interior, .Pricing, .Download__App, .Latest__News, .Testimonials, .Screenshots, footer {
+  padding-top: 9.5rem;
+  padding-bottom: 5rem; }
+
+.banner_btn, .main_btn2, .main_btn {
+  padding: 1rem 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 5px; }
+
+body {
+  line-height: 1.85;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal; }
+
+h4 {
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.header_area .navbar .nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  justify-content: flex-end; }
+
+nav {
+  background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%); }
+
+.home_banner {
+  background-image: url("../Assests/img/banner/home-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+
+.banner_content {
+  overflow: hidden;
+  width: 100%; }
+
+.banner_btn {
+  background-color: white;
+  cursor: pointer;
+  color: black; }
+
+.Features_title {
+  margin-bottom: 75px; }
+
+.Features__item {
+  padding: 50px 30px; }
+  .Features__item p {
+    color: #777; }
+
+.Features__item {
+  -moz-box-shadow: 5px 4.5px 9.5px 0 gainsboro;
+  -webkit-box-shadow: 5px 4.5px 9.5px 0 gainsboro;
+  -o-box-shadow: 5px 4.5px 9.5px 0 gainsboro;
+  -ms-box-shadow: 5px 4.5px 9.5px 0 gainsboro;
+  box-shadow: 5px 4.5px 9.5px 0 gainsboro; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 1rem; }
+
+img {
+  padding: .8rem; }
+
+.price_body li a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #777; }
+
+a {
+  text-decoration: none; }
+
+.interior_p {
+  font-size: 3rem; }
+
+.background__color {
+  background-color: #f9f9ff; }
+
+.Pricing__Table__header {
+  border-bottom: 1px solid #eee; }
+
+.price_body {
+  padding: 2rem 0; }
+
+.list {
+  margin-bottom: 2rem; }
+
+.main_btn2 {
+  background: #f9f9ff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  color: black; }
+
+.main_btn {
+  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  cursor: pointer;
+  color: white; }
+
+.Pricing__Table_title {
+  margin-bottom: 75px; }
+
+.Download__App {
+  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  color: #fff; }
+  .Download__App h2 {
+    color: #fff; }
+
+.Latest__News .l_news_item {
+  background: #f9f9ff;
+  padding: 60px 30px;
+  border-radius: 5px; }
+
+.Latest__News h4 {
+  color: black;
+  text-transform: uppercase;
+  padding: 1rem 0rem; }
+
+.Latest__News p {
+  color: #777; }
+
+.Latest__News .date {
+  background: #fff;
+  color: #777;
+  border: 1px solid #ddd;
+  padding: 0 18px;
+  display: inline-block;
+  line-height: 28px;
+  border-radius: 3px; }
+
+footer {
+  background-color: #222;
+  color: #fff; }
+  footer li a {
+    color: #fff; }
+  footer h6 {
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+  footer p {
+    color: #777; }
+
+.video_area {
+  text-align: center; }
+
+@media (min-width: 1200px) {
+  .fs-1 {
+    font-size: 5.5rem !important; } }

@@ -1,0 +1,44 @@
+@mixin background-image($url, $repeat: no-repeat, $size:cover) {
+    background-image: url($url);
+    background-repeat: $repeat;
+    background-size: $size;
+}
+
+@mixin rounded($radius: 0.5em) {
+    @each $vendor in $vendors {
+        #{$vendor}border-radius: $radius;
+    }
+}
+
+@mixin box-shadow($top, $left, $blur, $spread, $color, $inset: false) {
+    @if $inset {
+        @each $vendor in $vendors {
+            #{$vendor}box-shadow: inset $top $left $blur $spread $color;
+        }
+    }
+    @else {
+        @each $vendor in $vendors {
+            #{$vendor}box-shadow: $top $left $blur $spread $color;
+        }
+    }
+}
+
+@mixin headerH2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    color: $headercolor;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+%section_padding {
+    padding-top: 9.5rem;
+    padding-bottom: 5rem;
+}
+
+%button {
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}

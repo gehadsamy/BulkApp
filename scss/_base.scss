@@ -1,0 +1,67 @@
+body {
+    line-height: 1.85;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+ 
+h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+//nav bar 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header_area .navbar .nav .nav-item .nav-link {
+    text-transform: uppercase;
+    color: $btnColor;
+    display: inline-block;
+    justify-content: flex-end;
+}
+nav {
+    background-image: -webkit-linear-gradient( 0deg, rgba(188, 43, 255, .8) 0%, rgba(114, 73, 251, .8) 100%);
+}
+
+// -----------------------------------------------------------
+// banner section 
+.home_banner {
+    @include background-image ($brandbanner);
+    color: $textcolor;
+}
+.banner_content {
+    overflow: hidden;
+    width: 100%;
+    // padding: 170px 0 140px 0;
+}
+
+.banner_btn {
+    @extend %button;
+    background-color: $textcolor;
+    cursor: pointer;
+    color: black;
+}
+
+
+// ---------------------------------------------------
+// features section
+
+.Features_title {
+    margin-bottom: 75px;
+}
+
+.Features {
+    @extend %section_padding;
+}
+
+.Features__item {
+    padding: 50px 30px;
+    p {
+        color: $text;
+    }
+}
+
